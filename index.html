@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>HB Days</title>
+  </head>
+  <body>
+    <h1 class="title">Дни до дня рождения</h1>
+    <div class="wrapper">
+      <input
+        type="date"
+        name="birthday"
+        id="inputDate"
+        min="1924-01-01"
+        max="2034-01-01"
+        value=""
+      />
+      <button id="mainButton">Посчитать</button>
+    </div>
+    <div>
+      <h2 class="rightAnswer"></h2>
+      <h2 class="wrongAnswer"></h2>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
